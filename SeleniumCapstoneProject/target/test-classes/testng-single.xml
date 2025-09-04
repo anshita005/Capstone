@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="Amazon Single Test Suite" parallel="false">
-    <test name="Single Amazon Test">
-        <classes>
-            <class name="runners.TestRunner"/>
-        </classes>
-    </test>
-</suite>
