@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report Theme -->
+        <!-- STANDARD, DARK -->
+        <theme>STANDARD</theme>
+        
+        <!-- Document Encoding -->
+        <!-- UTF-8, UTF-16 -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- Protocol for Script and Stylesheets -->
+        <!-- HTTP, HTTPS -->
+        <protocol>HTTPS</protocol>
+        
+        <!-- Title of the Report -->
+        <documentTitle>Amazon E-commerce Test Automation Report</documentTitle>
+        
+        <!-- Name of the Report -->
+        <reportName>Amazon E-commerce Test Results</reportName>
+        
+        <!-- Timestamp format -->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+        
+        <!-- Custom CSS -->
+        <css>
+            .r-img { width: 100%; }
+        </css>
+        
+        <!-- Custom JavaScript -->
+        <js>
+            var config = {
+                theme: 'standard',
+                encoding: 'UTF-8'
+            };
+        </js>
+    </configuration>
+</extentreports>

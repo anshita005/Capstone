@@ -1,0 +1,10 @@
+<suite name="YakshaHealthSuite" parallel="none">
+  <test name="E2E" preserve-order="true">
+    <classes>
+      <class name="runner.TestRunner_01_Registration"/>
+      <class name="runner.TestRunner_02_Login"/>
+      <class name="runner.TestRunner_03_Appointment"/>
+      <class name="runner.TestRunner_04_Search"/>
+    </classes>
+  </test>
+</suite>
